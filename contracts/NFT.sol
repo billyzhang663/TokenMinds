@@ -10,7 +10,7 @@ contract NFT is ERC721URIStorage {
     Counters.Counter private _tokenIds; // Tracking the no of tokens minted
     address contractAddress; // Address to allow NFT to be interacted with
 
-    constructor(address marketPlaceAddress) ERC721("OpenStore Tokens", "OST") {
+    constructor(address marketPlaceAddress) ERC721("TokenMinds NFT", "TMN") {
         contractAddress = marketPlaceAddress;
     }
 
